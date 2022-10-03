@@ -5,9 +5,9 @@ Code by Brian Root; report authored by Hina Naveed
 
 ## Data Sources and Methodology
 This repository includes the analytical code that was used in Human Rights Watch's investigation. The analysis is based on three data files:
-*The [National Child Abuse and Neglect Data System (NCANDS) Child File](https://www.ndacan.acf.hhs.gov/datasets/datasets-list-ncands-child-file.cfm)
-*The [Adoption and Foster Care Analysis and Reporting System (AFCARS) Foster Care File](https://www.ndacan.acf.hhs.gov/datasets/datasets-list-afcars-foster-care.cfm)
-*US Census Bureau [American Community Survey](https://www.census.gov/programs-surveys/acs/data.html) 5-year file
+* The [National Child Abuse and Neglect Data System (NCANDS) Child File](https://www.ndacan.acf.hhs.gov/datasets/datasets-list-ncands-child-file.cfm)
+* The [Adoption and Foster Care Analysis and Reporting System (AFCARS) Foster Care File](https://www.ndacan.acf.hhs.gov/datasets/datasets-list-afcars-foster-care.cfm)
+* US Census Bureau [American Community Survey](https://www.census.gov/programs-surveys/acs/data.html) 5-year file
 
 The raw data is not provided because the NCANDS data is a restricted use dataset and the AFCARS file requires terms of use to be signed. Both files can be ordered from the [National Archive on Child Abuse and Neglect](https://www.ndacan.acf.hhs.gov/datasets/datasets-list.cfm). For both datasets, we analyzed the fiscal year 2019 file because it was the most recent file with a full year of pre-Covid-19 pandemic data, however the analysis can be replicated using other years of data. Fiscal year 2019 covered the period from October 2018 through September 2019.
 
@@ -19,7 +19,7 @@ All rates were computed using data from the US Census Bureau 2019 5-year America
 
 ## Core scripts
 This repository provides the R scripts used to process and analyze the data.
-*The file 01_childfile_processing.R is used to create new variables that are used in the analysis.
-*02_census_download_process.R queries the Census api to download population and other economic/demographic data from the ACS and generate additional percentage variables. In order for the census script to run, you must have a census api key saved in your .Renviron.
-*The 03_descriptive_analysis.R script contains all of the analyses used to generate the statistics, tables, and figures used in the report. The actual visualizations were not developed in R but the script generates the dataframes that were used to create the visualizations.
+* The file 01_childfile_processing.R is used to create new variables that are used in the analysis.
+* 02_census_download_process.R queries the Census api to download population and other economic/demographic data from the ACS and generate additional percentage variables. In order for the census script to run, you must have a census api key saved in your .Renviron.
+* The 03_descriptive_analysis.R script contains all of the analyses used to generate the statistics, tables, and figures used in the report. The actual visualizations were not developed in R but the script generates the dataframes that were used to create the visualizations.
 
