@@ -3,7 +3,7 @@
 
 Code by Brian Root; report authored by Hina Naveed
 
-## Data Sources and Methodology
+### Data Sources and Methodology
 This repository includes the analytical code that was used in Human Rights Watch's investigation. The analysis is based on three data files:
 * The [National Child Abuse and Neglect Data System (NCANDS) Child File](https://www.ndacan.acf.hhs.gov/datasets/datasets-list-ncands-child-file.cfm)
 * The [Adoption and Foster Care Analysis and Reporting System (AFCARS) Foster Care File](https://www.ndacan.acf.hhs.gov/datasets/datasets-list-afcars-foster-care.cfm)
@@ -17,7 +17,7 @@ Depending on the variable analyzed, there can be wide variation in the completen
 
 All rates were computed using data from the US Census Bureau 2019 5-year American Community Survey (ACS). All child rates used population estimates of the under 18 population. Race-specific rates for the white population used the non-Hispanic/Latino white population. Rates for Latinx population used the Census Bureau’s Hispanic/Latino ethnicity categorization, regardless of race. This methodology matches with the methodology used in the AFCARS and NCANDS datasets on the derived “RaceEthn” variable.  Data on income and poverty levels is from the same ACS survey. 
 
-## Core scripts
+### Core scripts
 This repository provides the R scripts used to process and analyze the data.
 * The file 01_childfile_processing.R creates new variables that are used in the analysis.
 * 02_census_download_process.R queries the Census api to download population and other economic/demographic data from the ACS and generate additional percentage variables. In order for the census script to run, you must have a census api key saved in your .Renviron.
