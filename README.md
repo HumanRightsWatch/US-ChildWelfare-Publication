@@ -19,7 +19,7 @@ All rates were computed using data from the US Census Bureau 2019 5-year America
 
 ## Core scripts
 This repository provides the R scripts used to process and analyze the data.
-* The file 01_childfile_processing.R is used to create new variables that are used in the analysis.
+* The file 01_childfile_processing.R creates new variables that are used in the analysis.
 * 02_census_download_process.R queries the Census api to download population and other economic/demographic data from the ACS and generate additional percentage variables. In order for the census script to run, you must have a census api key saved in your .Renviron.
 * The 03_descriptive_analysis.R script contains all of the analyses used to generate the statistics, tables, and figures used in the report. The actual visualizations were not developed in R but the script generates the dataframes that were used to create the visualizations.
 
