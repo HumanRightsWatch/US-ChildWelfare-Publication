@@ -1,9 +1,9 @@
 # Human Rights Watch Analysis of Child Welfare Systems in the US
 ## Quantitative analyses from the report ““If I Wasn’t Poor, I Wouldn’t Be Unfit” The Family Separation Crisis Within the US Child Welfare System"
 
-*Code by Brian Root; report authored by Hina Naveed*
+Code by Brian Root; report authored by Hina Naveed
 
-##Data Sources and Methodology
+## Data Sources and Methodology
 This repository includes the analytical code that was used in Human Rights Watch's investigation. The analysis is based on three data files:
 *The [National Child Abuse and Neglect Data System (NCANDS) Child File](https://www.ndacan.acf.hhs.gov/datasets/datasets-list-ncands-child-file.cfm)
 *The [Adoption and Foster Care Analysis and Reporting System (AFCARS) Foster Care File](https://www.ndacan.acf.hhs.gov/datasets/datasets-list-afcars-foster-care.cfm)
