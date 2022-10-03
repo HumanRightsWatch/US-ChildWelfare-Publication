@@ -1,7 +1,5 @@
 # Human Rights Watch Analysis of Child Welfare Systems in the US
-## Quantitative analyses from the report 
-### 'If I Wasn’t Poor, I Wouldn’t Be Unfit'
-#### The Family Separation Crisis Within the US Child Welfare System"
+## Quantitative analyses from the Human Rights Watch report  "'If I Wasn’t Poor, I Wouldn’t Be Unfit' The Family Separation Crisis Within the US Child Welfare System"
 
 Code by Brian Root; report authored by Hina Naveed
 
